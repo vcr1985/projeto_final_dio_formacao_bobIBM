@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "deal-explorer": {
+      "command": "node",
+      "args": [
+        "/home/vc2026/projeto_final_dio_formacao_bobIBM/projeto_final_Deal_Explorer/mcp/build/index.js"
+      ],
+      "env": {}
+    }
+  }
+}
