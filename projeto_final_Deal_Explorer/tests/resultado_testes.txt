@@ -1,0 +1,71 @@
+======================================================================
+RELATÓRIO DE TESTES — Deal Explorer Slash Commands
+======================================================================
+Data/Hora : 09/09/2026 01:53:48
+Arquivo   : tests/test_commands.py
+======================================================================
+
+test_buscar_trilha_arquivo_inexistente_retorna_none (__main__.TestComandoCertificado.test_buscar_trilha_arquivo_inexistente_retorna_none) ... ok
+test_buscar_trilha_inexistente_retorna_none (__main__.TestComandoCertificado.test_buscar_trilha_inexistente_retorna_none) ... ok
+test_buscar_trilha_java_encontrada (__main__.TestComandoCertificado.test_buscar_trilha_java_encontrada) ... ok
+test_codigo_formato_correto (__main__.TestComandoCertificado.test_codigo_formato_correto) ... ok
+test_codigo_unico_em_chamadas_consecutivas (__main__.TestComandoCertificado.test_codigo_unico_em_chamadas_consecutivas) ... ok
+test_executar_nome_vazio_retorna_erro (__main__.TestComandoCertificado.test_executar_nome_vazio_retorna_erro) ... ok
+test_executar_retorna_conteudo_e_caminho (__main__.TestComandoCertificado.test_executar_retorna_conteudo_e_caminho) ... ok
+test_executar_trilha_vazia_retorna_erro (__main__.TestComandoCertificado.test_executar_trilha_vazia_retorna_erro) ... ok
+test_formatar_certificado_contém_codigo (__main__.TestComandoCertificado.test_formatar_certificado_contém_codigo) ... ok
+test_formatar_certificado_contém_data (__main__.TestComandoCertificado.test_formatar_certificado_contém_data) ... ok
+test_formatar_certificado_contém_nome_maiusculo (__main__.TestComandoCertificado.test_formatar_certificado_contém_nome_maiusculo) ... ok
+test_formatar_certificado_contém_nome_trilha (__main__.TestComandoCertificado.test_formatar_certificado_contém_nome_trilha) ... ok
+test_gerar_certificado_campos_obrigatorios (__main__.TestComandoCertificado.test_gerar_certificado_campos_obrigatorios) ... ok
+test_gerar_certificado_data_formato_brasileiro (__main__.TestComandoCertificado.test_gerar_certificado_data_formato_brasileiro) ... ok
+test_gerar_certificado_nome_preservado (__main__.TestComandoCertificado.test_gerar_certificado_nome_preservado) ... ok
+test_gerar_certificado_trilha_nao_encontrada_usa_nome_dado (__main__.TestComandoCertificado.test_gerar_certificado_trilha_nao_encontrada_usa_nome_dado) ... ok
+test_salvar_certificado_conteudo_correto (__main__.TestComandoCertificado.test_salvar_certificado_conteudo_correto) ... ok
+test_salvar_certificado_cria_arquivo (__main__.TestComandoCertificado.test_salvar_certificado_cria_arquivo) ... ok
+test_executar_retorna_string_nao_vazia (__main__.TestComandoDesafio.test_executar_retorna_string_nao_vazia) ... ok
+test_executar_sem_nivel_funciona (__main__.TestComandoDesafio.test_executar_sem_nivel_funciona) ... ok
+test_executar_tecnologia_vazia_retorna_erro (__main__.TestComandoDesafio.test_executar_tecnologia_vazia_retorna_erro) ... ok
+test_formatar_desafio_contém_nivel (__main__.TestComandoDesafio.test_formatar_desafio_contém_nivel) ... ok
+test_formatar_desafio_contém_secoes_markdown (__main__.TestComandoDesafio.test_formatar_desafio_contém_secoes_markdown) ... ok
+test_formatar_desafio_contém_tecnologia (__main__.TestComandoDesafio.test_formatar_desafio_contém_tecnologia) ... ok
+test_gerar_desafio_nivel_avancado (__main__.TestComandoDesafio.test_gerar_desafio_nivel_avancado) ... ok
+test_gerar_desafio_nivel_basico (__main__.TestComandoDesafio.test_gerar_desafio_nivel_basico) ... ok
+test_gerar_desafio_nivel_intermediario (__main__.TestComandoDesafio.test_gerar_desafio_nivel_intermediario) ... ok
+test_gerar_desafio_nivel_invalido_usa_intermediario (__main__.TestComandoDesafio.test_gerar_desafio_nivel_invalido_usa_intermediario) ... ok
+test_gerar_desafio_nivel_omitido_escolhe_aleatorio (__main__.TestComandoDesafio.test_gerar_desafio_nivel_omitido_escolhe_aleatorio) ... ok
+test_gerar_desafio_retorna_dict_com_chaves_obrigatorias (__main__.TestComandoDesafio.test_gerar_desafio_retorna_dict_com_chaves_obrigatorias) ... ok
+test_gerar_desafio_tecnologia_preservada (__main__.TestComandoDesafio.test_gerar_desafio_tecnologia_preservada) ... ok
+test_gerar_desafio_xp_dentro_do_intervalo (__main__.TestComandoDesafio.test_gerar_desafio_xp_dentro_do_intervalo) ... ok
+test_buscar_trilha_case_insensitive (__main__.TestComandoTrilha.test_buscar_trilha_case_insensitive) ... ok
+test_buscar_trilha_inexistente_retorna_none (__main__.TestComandoTrilha.test_buscar_trilha_inexistente_retorna_none) ... ok
+test_buscar_trilha_java_encontrada (__main__.TestComandoTrilha.test_buscar_trilha_java_encontrada) ... ok
+test_buscar_trilha_por_nome_parcial (__main__.TestComandoTrilha.test_buscar_trilha_por_nome_parcial) ... ok
+test_carregar_trilhas_arquivo_inexistente (__main__.TestComandoTrilha.test_carregar_trilhas_arquivo_inexistente) ... ok
+test_carregar_trilhas_retorna_lista (__main__.TestComandoTrilha.test_carregar_trilhas_retorna_lista) ... ok
+test_executar_java_retorna_plano (__main__.TestComandoTrilha.test_executar_java_retorna_plano) ... ok
+test_executar_tecnologia_nao_encontrada_lista_disponiveis (__main__.TestComandoTrilha.test_executar_tecnologia_nao_encontrada_lista_disponiveis) ... ok
+test_executar_tecnologia_vazia_retorna_erro (__main__.TestComandoTrilha.test_executar_tecnologia_vazia_retorna_erro) ... ok
+test_formatar_plano_contém_lives (__main__.TestComandoTrilha.test_formatar_plano_contém_lives) ... ok
+test_formatar_plano_contém_nome_trilha (__main__.TestComandoTrilha.test_formatar_plano_contém_nome_trilha) ... ok
+test_formatar_plano_contém_promocao_vitalicia (__main__.TestComandoTrilha.test_formatar_plano_contém_promocao_vitalicia) ... ok
+test_formatar_plano_contém_xp (__main__.TestComandoTrilha.test_formatar_plano_contém_xp) ... ok
+test_formatar_plano_número_de_módulos (__main__.TestComandoTrilha.test_formatar_plano_número_de_módulos) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.029s
+
+OK
+
+
+======================================================================
+RESUMO
+======================================================================
+Total de testes  : 46
+Aprovados        : 46
+Falhas           : 0
+Erros            : 0
+Taxa de aprovação: 100.0%
+Meta mínima      : 70%
+Status           : ✅ META ATINGIDA
+======================================================================
