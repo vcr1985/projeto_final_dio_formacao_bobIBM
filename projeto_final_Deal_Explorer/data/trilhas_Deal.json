@@ -1,0 +1,486 @@
+{
+  "plataforma": "DIO - Digital Innovation One",
+  "url": "https://www.dio.me",
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "Formação Java Developer",
+      "tecnologia": "Java",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 18500,
+      "beds_disponiveis": 350,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 40,
+        "preco_original": 199.90,
+        "preco_promocional": 119.90
+      },
+      "lives_ao_vivo": ["Introdução ao Java 21", "Design Patterns na prática", "Spring Boot do Zero"]
+    },
+    {
+      "id": 2,
+      "nome": "Formação Python Developer",
+      "tecnologia": "Python",
+      "nivel": "Básico",
+      "numero_de_modulos": 10,
+      "xp_total": 14200,
+      "beds_disponiveis": 500,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 50,
+        "preco_original": 179.90,
+        "preco_promocional": 89.90
+      },
+      "lives_ao_vivo": ["Python para Iniciantes", "Automação com Python", "APIs com FastAPI"]
+    },
+    {
+      "id": 3,
+      "nome": "Formação Machine Learning Specialist",
+      "tecnologia": "Python / TensorFlow / Scikit-Learn",
+      "nivel": "Avançado",
+      "numero_de_modulos": 18,
+      "xp_total": 32000,
+      "beds_disponiveis": 200,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 30,
+        "preco_original": 349.90,
+        "preco_promocional": 244.90
+      },
+      "lives_ao_vivo": ["Redes Neurais do Zero", "MLOps na prática", "Deploy de Modelos com Flask"]
+    },
+    {
+      "id": 4,
+      "nome": "Formação React Developer",
+      "tecnologia": "React / JavaScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 21000,
+      "beds_disponiveis": 420,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 45,
+        "preco_original": 219.90,
+        "preco_promocional": 120.90
+      },
+      "lives_ao_vivo": ["Hooks Avançados", "Next.js do Zero", "Testes com Jest e RTL"]
+    },
+    {
+      "id": 5,
+      "nome": "Formação Node.js Developer",
+      "tecnologia": "Node.js / Express / MongoDB",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 19800,
+      "beds_disponiveis": 310,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 20,
+        "preco_original": 229.90,
+        "preco_promocional": 183.90
+      },
+      "lives_ao_vivo": ["APIs RESTful com Node", "Autenticação JWT", "Microserviços com Node"]
+    },
+    {
+      "id": 6,
+      "nome": "Formação AWS Cloud Practitioner",
+      "tecnologia": "AWS / Cloud",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 13500,
+      "beds_disponiveis": 600,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 55,
+        "preco_original": 299.90,
+        "preco_promocional": 134.90
+      },
+      "lives_ao_vivo": ["Introdução à AWS", "EC2 e S3 na prática", "IAM e Segurança na Nuvem"]
+    },
+    {
+      "id": 7,
+      "nome": "Formação Azure Developer",
+      "tecnologia": "Microsoft Azure",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 15,
+      "xp_total": 24500,
+      "beds_disponiveis": 280,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 35,
+        "preco_original": 319.90,
+        "preco_promocional": 207.90
+      },
+      "lives_ao_vivo": ["Azure Functions", "DevOps com Azure Pipelines", "Containers no Azure"]
+    },
+    {
+      "id": 8,
+      "nome": "Formação Docker e Kubernetes",
+      "tecnologia": "Docker / Kubernetes",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 28000,
+      "beds_disponiveis": 190,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 25,
+        "preco_original": 339.90,
+        "preco_promocional": 254.90
+      },
+      "lives_ao_vivo": ["Docker do Zero", "Orquestração com K8s", "Helm Charts na prática"]
+    },
+    {
+      "id": 9,
+      "nome": "Formação Angular Developer",
+      "tecnologia": "Angular / TypeScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 18000,
+      "beds_disponiveis": 370,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 15,
+        "preco_original": 209.90,
+        "preco_promocional": 178.40
+      },
+      "lives_ao_vivo": ["Angular 17 Novidades", "RxJS na prática", "Testes em Angular"]
+    },
+    {
+      "id": 10,
+      "nome": "Formação Flutter Mobile Developer",
+      "tecnologia": "Flutter / Dart",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 22000,
+      "beds_disponiveis": 260,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 40,
+        "preco_original": 259.90,
+        "preco_promocional": 155.90
+      },
+      "lives_ao_vivo": ["Flutter do Zero", "State Management com Riverpod", "Publicando no Play Store"]
+    },
+    {
+      "id": 11,
+      "nome": "Formação Data Science com Python",
+      "tecnologia": "Python / Pandas / NumPy",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 15,
+      "xp_total": 24000,
+      "beds_disponiveis": 430,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 50,
+        "preco_original": 289.90,
+        "preco_promocional": 144.90
+      },
+      "lives_ao_vivo": ["EDA com Pandas", "Visualização com Matplotlib", "Dashboard com Streamlit"]
+    },
+    {
+      "id": 12,
+      "nome": "Formação Cybersecurity Specialist",
+      "tecnologia": "Segurança da Informação / Kali Linux",
+      "nivel": "Avançado",
+      "numero_de_modulos": 20,
+      "xp_total": 36000,
+      "beds_disponiveis": 150,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 20,
+        "preco_original": 399.90,
+        "preco_promocional": 319.90
+      },
+      "lives_ao_vivo": ["Pentest do Zero", "OWASP Top 10", "CTF ao Vivo"]
+    },
+    {
+      "id": 13,
+      "nome": "Formação Kotlin Android Developer",
+      "tecnologia": "Kotlin / Android",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 20500,
+      "beds_disponiveis": 240,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 30,
+        "preco_original": 239.90,
+        "preco_promocional": 167.90
+      },
+      "lives_ao_vivo": ["Jetpack Compose na prática", "Arquitetura MVVM", "Integração com Firebase"]
+    },
+    {
+      "id": 14,
+      "nome": "Formação C# .NET Developer",
+      "tecnologia": "C# / .NET / ASP.NET",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 21500,
+      "beds_disponiveis": 300,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 35,
+        "preco_original": 249.90,
+        "preco_promocional": 162.40
+      },
+      "lives_ao_vivo": ["ASP.NET Core do Zero", "Entity Framework", "Blazor na prática"]
+    },
+    {
+      "id": 15,
+      "nome": "Formação DevOps Engineer",
+      "tecnologia": "CI/CD / Jenkins / GitHub Actions",
+      "nivel": "Avançado",
+      "numero_de_modulos": 17,
+      "xp_total": 30000,
+      "beds_disponiveis": 180,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 30,
+        "preco_original": 369.90,
+        "preco_promocional": 258.90
+      },
+      "lives_ao_vivo": ["GitHub Actions do Zero", "Pipeline completo CI/CD", "Monitoramento com Grafana"]
+    },
+    {
+      "id": 16,
+      "nome": "Formação SQL e Banco de Dados",
+      "tecnologia": "SQL / MySQL / PostgreSQL",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 11000,
+      "beds_disponiveis": 550,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 60,
+        "preco_original": 149.90,
+        "preco_promocional": 59.90
+      },
+      "lives_ao_vivo": ["SQL do Zero", "Otimização de Queries", "PostgreSQL Avançado"]
+    },
+    {
+      "id": 17,
+      "nome": "Formação Inteligência Artificial com IBM Watson",
+      "tecnologia": "IBM Watson / Python",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 29000,
+      "beds_disponiveis": 170,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 25,
+        "preco_original": 379.90,
+        "preco_promocional": 284.90
+      },
+      "lives_ao_vivo": ["Watson Assistant na prática", "NLP com IBM", "Deploy de Chatbots"]
+    },
+    {
+      "id": 18,
+      "nome": "Formação Golang Developer",
+      "tecnologia": "Go / Golang",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 17500,
+      "beds_disponiveis": 220,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 20,
+        "preco_original": 219.90,
+        "preco_promocional": 175.90
+      },
+      "lives_ao_vivo": ["Go do Zero", "APIs com Gin Framework", "Concorrência em Go"]
+    },
+    {
+      "id": 19,
+      "nome": "Formação Vue.js Developer",
+      "tecnologia": "Vue.js / JavaScript",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 18500,
+      "beds_disponiveis": 290,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 45,
+        "preco_original": 209.90,
+        "preco_promocional": 115.40
+      },
+      "lives_ao_vivo": ["Vue 3 Composition API", "Pinia State Management", "Nuxt.js na prática"]
+    },
+    {
+      "id": 20,
+      "nome": "Formação Blockchain Developer",
+      "tecnologia": "Solidity / Ethereum / Web3.js",
+      "nivel": "Avançado",
+      "numero_de_modulos": 18,
+      "xp_total": 33000,
+      "beds_disponiveis": 130,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 20,
+        "preco_original": 419.90,
+        "preco_promocional": 335.90
+      },
+      "lives_ao_vivo": ["Smart Contracts do Zero", "DeFi na prática", "NFTs com Solidity"]
+    },
+    {
+      "id": 21,
+      "nome": "Formação Power BI e Análise de Dados",
+      "tecnologia": "Power BI / DAX / Power Query",
+      "nivel": "Básico",
+      "numero_de_modulos": 9,
+      "xp_total": 12500,
+      "beds_disponiveis": 480,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 55,
+        "preco_original": 169.90,
+        "preco_promocional": 76.40
+      },
+      "lives_ao_vivo": ["Power BI do Zero", "DAX Avançado", "Dashboards Executivos"]
+    },
+    {
+      "id": 22,
+      "nome": "Formação Swift iOS Developer",
+      "tecnologia": "Swift / SwiftUI / Xcode",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 13,
+      "xp_total": 20000,
+      "beds_disponiveis": 210,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 25,
+        "preco_original": 249.90,
+        "preco_promocional": 187.40
+      },
+      "lives_ao_vivo": ["SwiftUI do Zero", "CoreData na prática", "Publicando na App Store"]
+    },
+    {
+      "id": 23,
+      "nome": "Formação Rust Developer",
+      "tecnologia": "Rust",
+      "nivel": "Avançado",
+      "numero_de_modulos": 16,
+      "xp_total": 27500,
+      "beds_disponiveis": 140,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 15,
+        "preco_original": 359.90,
+        "preco_promocional": 305.90
+      },
+      "lives_ao_vivo": ["Rust do Zero", "Memory Safety em Rust", "WebAssembly com Rust"]
+    },
+    {
+      "id": 24,
+      "nome": "Formação UX/UI Design",
+      "tecnologia": "Figma / Adobe XD / Design System",
+      "nivel": "Básico",
+      "numero_de_modulos": 10,
+      "xp_total": 14000,
+      "beds_disponiveis": 520,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 50,
+        "preco_original": 189.90,
+        "preco_promocional": 94.90
+      },
+      "lives_ao_vivo": ["Figma do Zero", "Prototipagem Avançada", "Design System na prática"]
+    },
+    {
+      "id": 25,
+      "nome": "Formação Elastic Stack (ELK)",
+      "tecnologia": "Elasticsearch / Logstash / Kibana",
+      "nivel": "Avançado",
+      "numero_de_modulos": 15,
+      "xp_total": 26000,
+      "beds_disponiveis": 160,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 30,
+        "preco_original": 349.90,
+        "preco_promocional": 244.90
+      },
+      "lives_ao_vivo": ["ELK Stack do Zero", "Observabilidade com Kibana", "Alertas e Monitoramento"]
+    },
+    {
+      "id": 26,
+      "nome": "Formação PHP Laravel Developer",
+      "tecnologia": "PHP / Laravel",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 12,
+      "xp_total": 17000,
+      "beds_disponiveis": 330,
+      "promocoes": {
+        "vitalicio": false,
+        "desconto_percentual": 35,
+        "preco_original": 199.90,
+        "preco_promocional": 129.90
+      },
+      "lives_ao_vivo": ["Laravel do Zero", "APIs com Sanctum", "Livewire na prática"]
+    },
+    {
+      "id": 27,
+      "nome": "Formação Ruby on Rails Developer",
+      "tecnologia": "Ruby / Ruby on Rails",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 11,
+      "xp_total": 16500,
+      "beds_disponiveis": 195,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 40,
+        "preco_original": 219.90,
+        "preco_promocional": 131.90
+      },
+      "lives_ao_vivo": ["Rails do Zero", "APIs com Rails", "Testes com RSpec"]
+    },
+    {
+      "id": 28,
+      "nome": "Formação Game Developer com Unity",
+      "tecnologia": "Unity / C#",
+      "nivel": "Intermediário",
+      "numero_de_modulos": 14,
+      "xp_total": 23000,
+      "beds_disponiveis": 275,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 45,
+        "preco_original": 269.90,
+        "preco_promocional": 148.40
+      },
+      "lives_ao_vivo": ["Unity do Zero", "Física e Colisões", "Publicando seu Game"]
+    },
+    {
+      "id": 29,
+      "nome": "Formação Engenharia de Dados",
+      "tecnologia": "Apache Spark / Kafka / Airflow",
+      "nivel": "Avançado",
+      "numero_de_modulos": 19,
+      "xp_total": 35000,
+      "beds_disponiveis": 145,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 20,
+        "preco_original": 429.90,
+        "preco_promocional": 343.90
+      },
+      "lives_ao_vivo": ["Pipeline de Dados com Kafka", "Airflow do Zero", "Data Lake na AWS"]
+    },
+    {
+      "id": 30,
+      "nome": "Formação Prompt Engineering e IA Generativa",
+      "tecnologia": "ChatGPT / LangChain / OpenAI API",
+      "nivel": "Básico",
+      "numero_de_modulos": 8,
+      "xp_total": 11500,
+      "beds_disponiveis": 700,
+      "promocoes": {
+        "vitalicio": true,
+        "desconto_percentual": 60,
+        "preco_original": 159.90,
+        "preco_promocional": 63.90
+      },
+      "lives_ao_vivo": ["Prompt Engineering do Zero", "LangChain na prática", "Criando Agentes com IA"]
+    }
+  ]
+}
