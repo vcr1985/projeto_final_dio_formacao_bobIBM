@@ -1,0 +1,14 @@
+# Pastas de módulos
+node_modules/
+
+# Pastas de dados e cache
+data/
+cache/
+progresso/
+
+# Certificados gerados
+docs/certificados/
+certificados_emitidos/
+
+# Arquivos temporários
+*.tmp
